@@ -4,8 +4,8 @@ log:
     service: registry
 storage:
   ipfs:
-    direction: in
-    address: 172.17.0.1:5000
+    direction: download
+    address: ipfs:5000
 http:
   addr: :5000
   headers:
